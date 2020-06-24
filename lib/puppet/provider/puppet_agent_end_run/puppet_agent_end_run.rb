@@ -4,6 +4,13 @@ Puppet::Type.type(:puppet_agent_end_run).provide :puppet_agent_end_run do
   end
 
   def stop
+    Puppet.notice("setting our own fork and branch for pe testing works")
+    Puppet.notice("setting our own fork and branch for pe testing works")
+    Puppet.notice("setting our own fork and branch for pe testing works")
+    Puppet.notice("setting our own fork and branch for pe testing works")
+    Puppet.notice("setting our own fork and branch for pe testing works")
+    Puppet.notice("setting our own fork and branch for pe testing works")
+    Puppet.notice("setting our own fork and branch for pe testing works")
     if needs_upgrade?
       run_mode = Puppet.run_mode.name
 
